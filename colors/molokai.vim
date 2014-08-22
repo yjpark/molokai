@@ -31,7 +31,7 @@ hi Boolean         guifg=#AE81DF
 hi Character       guifg=#E6DB74
 hi Number          guifg=#AE81DF
 hi String          guifg=#E6DB74
-hi Conditional     guifg=#F92672               gui=bold
+hi Conditional     guifg=#F92672
 hi Constant        guifg=#AE81DF               gui=bold
 hi Cursor          guifg=#000000 guibg=#F8F8F0
 hi iCursor         guifg=#000000 guibg=#F8F8F0
@@ -55,7 +55,7 @@ hi Identifier      guifg=#FD971F
 hi Ignore          guifg=#808080 guibg=bg
 hi IncSearch       guifg=#C4BE89 guibg=#000000
 
-hi Keyword         guifg=#C92672               gui=bold
+hi Keyword         guifg=#C92672
 hi Label           guifg=#E6DB74               gui=none
 hi Macro           guifg=#C4BE89               gui=italic
 hi SpecialKey      guifg=#66C9DF               gui=italic
@@ -63,7 +63,7 @@ hi SpecialKey      guifg=#66C9DF               gui=italic
 hi MatchParen      guifg=#000000 guibg=#FD971F gui=bold
 hi ModeMsg         guifg=#E6DB74
 hi MoreMsg         guifg=#E6DB74
-hi Operator        guifg=#F92672
+hi Operator        guifg=#C92672
 
 " complete menu
 hi Pmenu           guifg=#66C9DF guibg=#000000
@@ -74,7 +74,7 @@ hi PmenuThumb      guifg=#66C9DF
 hi PreCondit       guifg=#A6E22E               gui=bold
 hi PreProc         guifg=#A6E22E
 hi Question        guifg=#66C9DF
-hi Repeat          guifg=#F92672               gui=bold
+hi Repeat          guifg=#F92672
 hi Search          guifg=#000000 guibg=#FFE792
 " marks
 hi SignColumn      guifg=#A6E22E guibg=#232526
@@ -87,7 +87,7 @@ if has("spell")
     hi SpellLocal  guisp=#70F0F0 gui=undercurl
     hi SpellRare   guisp=#FFFFFF gui=undercurl
 endif
-hi Statement       guifg=#C92672               gui=bold
+hi Statement       guifg=#C92672
 hi StatusLine      guifg=#455354 guibg=fg
 hi StatusLineNC    guifg=#808080 guibg=#080808
 hi StorageClass    guifg=#FD971F               gui=italic
@@ -148,7 +148,7 @@ if &t_Co > 255
    hi Character       ctermfg=144
    hi Number          ctermfg=135
    hi String          ctermfg=144
-   hi Conditional     ctermfg=161               cterm=bold
+   hi Conditional     ctermfg=161
    hi Constant        ctermfg=135               cterm=bold
    hi Cursor          ctermfg=16  ctermbg=253
    hi Debug           ctermfg=225               cterm=bold
@@ -172,7 +172,7 @@ if &t_Co > 255
    hi Ignore          ctermfg=244 ctermbg=232
    hi IncSearch       ctermfg=193 ctermbg=16
 
-   hi keyword         ctermfg=161               cterm=bold
+   hi keyword         ctermfg=161
    hi Label           ctermfg=229               cterm=none
    hi Macro           ctermfg=193
    hi SpecialKey      ctermfg=81
@@ -191,7 +191,7 @@ if &t_Co > 255
    hi PreCondit       ctermfg=118               cterm=bold
    hi PreProc         ctermfg=118
    hi Question        ctermfg=81
-   hi Repeat          ctermfg=161               cterm=bold
+   hi Repeat          ctermfg=161
    hi Search          ctermfg=0   ctermbg=222   cterm=NONE
 
    " marks column
@@ -205,7 +205,7 @@ if &t_Co > 255
        hi SpellLocal              ctermbg=17
        hi SpellRare  ctermfg=none ctermbg=none  cterm=reverse
    endif
-   hi Statement       ctermfg=161               cterm=bold
+   hi Statement       ctermfg=161
    hi StatusLine      ctermfg=238 ctermbg=253
    hi StatusLineNC    ctermfg=244 ctermbg=232
    hi StorageClass    ctermfg=208
@@ -253,13 +253,13 @@ if &t_Co > 255
        hi Function        ctermfg=154
        hi Identifier      ctermfg=208
 
-       hi Keyword         ctermfg=197               cterm=bold
+       hi Keyword         ctermfg=197
        hi Operator        ctermfg=197
        hi PreCondit       ctermfg=154               cterm=bold
        hi PreProc         ctermfg=154
        hi Repeat          ctermfg=197               cterm=bold
 
-       hi Statement       ctermfg=197               cterm=bold
+       hi Statement       ctermfg=197
        hi Tag             ctermfg=197
        hi Title           ctermfg=203
        hi Visual                      ctermbg=238
